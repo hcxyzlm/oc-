@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AEFE7B4720A42DD900232149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B4620A42DD900232149 /* main.m */; };
+		AEFE7B5220A42EC000232149 /* MethodForwardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B5120A42EC000232149 /* MethodForwardTest.m */; };
+		AEFE7B5520A433D200232149 /* ForwardReplaceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B5420A433D200232149 /* ForwardReplaceImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AEFE7B4320A42DD900232149 /* oc消息转发机制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oc消息转发机制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE7B4620A42DD900232149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEFE7B5020A42EC000232149 /* MethodForwardTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodForwardTest.h; sourceTree = "<group>"; };
+		AEFE7B5120A42EC000232149 /* MethodForwardTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodForwardTest.m; sourceTree = "<group>"; };
+		AEFE7B5320A433D200232149 /* ForwardReplaceImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardReplaceImp.h; sourceTree = "<group>"; };
+		AEFE7B5420A433D200232149 /* ForwardReplaceImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardReplaceImp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AEFE7B4620A42DD900232149 /* main.m */,
+				AEFE7B5020A42EC000232149 /* MethodForwardTest.h */,
+				AEFE7B5120A42EC000232149 /* MethodForwardTest.m */,
+				AEFE7B5320A433D200232149 /* ForwardReplaceImp.h */,
+				AEFE7B5420A433D200232149 /* ForwardReplaceImp.m */,
 			);
 			path = "oc消息转发机制";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFE7B5220A42EC000232149 /* MethodForwardTest.m in Sources */,
+				AEFE7B5520A433D200232149 /* ForwardReplaceImp.m in Sources */,
 				AEFE7B4720A42DD900232149 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
