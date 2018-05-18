@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MethodForwardTest.h"
+#import "DynamicMethodDictory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,6 +19,12 @@ int main(int argc, const char * argv[]) {
         // test方法只有声明，没有实现，在crash之前，会进行消息转发
         // unrecognized selector sent to instance
         [forwardTest test];
+        
+        DynamicMethodDictory *dic = [[DynamicMethodDictory alloc] init];
+        
+        dic.string = @"hello";
+        NSLog(@"string = %@", dic.string);
+        
     }
     return 0;
 }

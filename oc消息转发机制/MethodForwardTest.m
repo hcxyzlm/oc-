@@ -24,6 +24,14 @@ void dynamicMethod (){
 
 @implementation MethodForwardTest
 
+- (instancetype)init {
+    self = [super init];
+    
+    NSLog(@"%@", NSStringFromClass([self class]));
+    NSLog(@"%@", NSStringFromClass([super class]));
+    return self;
+}
+
 /*
  第一次机会，添加动态方法
  **/

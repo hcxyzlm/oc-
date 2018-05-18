@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE8F175E20AE6FF40065423E /* DynamicMethodDictory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F175D20AE6FF40065423E /* DynamicMethodDictory.m */; };
 		AEFE7B4720A42DD900232149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B4620A42DD900232149 /* main.m */; };
 		AEFE7B5220A42EC000232149 /* MethodForwardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B5120A42EC000232149 /* MethodForwardTest.m */; };
 		AEFE7B5520A433D200232149 /* ForwardReplaceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B5420A433D200232149 /* ForwardReplaceImp.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE8F175C20AE6FF40065423E /* DynamicMethodDictory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicMethodDictory.h; sourceTree = "<group>"; };
+		AE8F175D20AE6FF40065423E /* DynamicMethodDictory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicMethodDictory.m; sourceTree = "<group>"; };
 		AEFE7B4320A42DD900232149 /* oc消息转发机制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oc消息转发机制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE7B4620A42DD900232149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEFE7B5020A42EC000232149 /* MethodForwardTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodForwardTest.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		AEFE7B4520A42DD900232149 /* oc消息转发机制 */ = {
 			isa = PBXGroup;
 			children = (
+				AE8F175C20AE6FF40065423E /* DynamicMethodDictory.h */,
+				AE8F175D20AE6FF40065423E /* DynamicMethodDictory.m */,
 				AEFE7B4620A42DD900232149 /* main.m */,
 				AEFE7B5020A42EC000232149 /* MethodForwardTest.h */,
 				AEFE7B5120A42EC000232149 /* MethodForwardTest.m */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFE7B5220A42EC000232149 /* MethodForwardTest.m in Sources */,
+				AE8F175E20AE6FF40065423E /* DynamicMethodDictory.m in Sources */,
 				AEFE7B5520A433D200232149 /* ForwardReplaceImp.m in Sources */,
 				AEFE7B4720A42DD900232149 /* main.m in Sources */,
 			);
